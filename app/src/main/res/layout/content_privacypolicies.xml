@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+android:background="#fff"
+    >
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/browser"/>
+    <CheckBox
+        android:id="@+id/arg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I accept the terms and conditions"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        />
+    <CheckBox
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am over 18"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        />
+
+    <Button
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/agree"
+        android:text="agree"/>
+
+
+
+</RelativeLayout>

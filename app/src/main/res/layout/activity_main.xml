@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Enter Phone Number"
+        android:id="@+id/label"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16sp"
+        android:layout_marginLeft="16sp"
+        android:padding="8dp"
+        />
+
+    <EditText
+        android:inputType="phone"
+        android:hint="+963xxxxxxxxx"
+        android:id="@+id/editText"
+        android:layout_below="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:layout_margin="16dp"
+       />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="go"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/editText"
+       />
+
+</RelativeLayout>
